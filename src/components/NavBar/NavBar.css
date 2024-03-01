@@ -1,0 +1,70 @@
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: #644333;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+.carr{
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    width: 40px;
+    height: 30px;
+    
+  }
+  
+.carrito {
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+  }
+  
+
+.Logo{
+    display: flex;
+
+}  
+  
+.LogoN {
+    width: 200px;
+    padding: 20px;
+    filter: invert(100%);
+    display: flex;
+
+
+
+  }
+
+.LogoN:hover{
+    cursor: pointer;
+
+  }
+  
+.Movi {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+ .BotonNav {
+    text-decoration: none;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    background: none;
+    color: white;
+    font-size: 1rem;
+    padding: 5px;
+    margin: 5px;
+  }
+
+.BotonNav:hover {
+    cursor: pointer;
+
+}
+
+.carrito:hover {
+    cursor: pointer;
+}

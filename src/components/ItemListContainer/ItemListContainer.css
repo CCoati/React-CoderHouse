@@ -1,0 +1,72 @@
+
+.Bienvenido{
+    font-family: "Simonetta", serif;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    font-size: 70px;
+    justify-content: center;
+}
+
+
+
+.textContainer {
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 5rem;
+    margin-top: 7rem;
+  }
+
+.cubodeclub{
+    width: 40rem;
+    margin-top: 190px;
+    
+}  
+
+.cartsub{
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: 100vh;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: url('../CartWidget/assets/Fondohome1.svg');
+    background-position: right;
+        background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+
+
+}
+
+
+.BotonSub{
+    background-color: #F29222;
+    border: none;
+    margin: 1rem;
+    padding: 10px 50px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.BotonMore{
+    background-color: #D9D9D9;
+    border: none;
+    margin: 1rem;
+    padding: 10px 50px;
+    border-radius: 10px;
+
+}
+
+.ImagenKaffe{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.textSub{
+    font-size: 20px;
+    width: 30rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}

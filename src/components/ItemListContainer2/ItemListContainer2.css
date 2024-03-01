@@ -1,0 +1,13 @@
+.CardItem{
+    display: flex;
+    flex-direction: column;
+    background: gainsboro;
+    margin: 40px;
+}
+
+.ListGroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;    
+}
